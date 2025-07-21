@@ -4,7 +4,7 @@ Either delete or stop the process and relode the link https://binderhub.ssl-hep.
 
 ###To test the token use the following check
 
-git clone https://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@github.com/uacharya9143/codas-hep.git
+git clone https://<your token>@github.com/uacharya9143/codas-hep.git
 cd codas-hep
 mkdir uacharya
 touch test_file
