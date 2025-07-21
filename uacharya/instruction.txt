@@ -1,0 +1,15 @@
+To reset the jupyter notebook use the  https://jupyterhub.ssl-hep.org/hub/home
+you will get the line whih say stop or delete. 
+Either delete or stop the process and relode the link https://binderhub.ssl-hep.org/v2/gh/iris-hep/codas-hep-2025/python?gpuModel=&gpuCount=1&cudaMajor=undefined&cudaMinor=undefined&site=nrp&memory=4.0&cpu=1&qos=Guaranteed
+
+###To test the token use the following check
+
+git clone https://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@github.com/uacharya9143/codas-hep.git
+cd codas-hep
+mkdir uacharya
+touch test_file
+git add test_file
+git commit -m "added new file"
+git config --global user.email uttam.acharya@vanderbilt.edu
+git config --global user.name "uacharya"
+git push
